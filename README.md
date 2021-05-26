@@ -46,7 +46,10 @@ CREATE DATABASE APIPROJECT; <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/database.PNG?raw=true) <br/> <br/>
 
 Next, exit mysql and change your current directory to the root folder of the project: <br/> <br/> 
-$ cd api-project <br/> <br/>
+$ cd /path/to/api-project <br/> <br/>
 
 We can proceed to create a model along with a migration. To do this, run: <br/> <br/>
 $ php artisan make:model Person -m <br/> <br/>
+
+A new file named Person.php will be created in the app/Models directory. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/person.PNG?raw=true) <br/> <br/>
