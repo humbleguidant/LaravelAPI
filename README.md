@@ -93,3 +93,6 @@ $ php artisan make:controller ApiController <br/> <br/>
 
 You will find a new file named ApiController.php in the app\http\controllers directory. Next, we can add the following methods: <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/controller.PNG?raw=true) <br/> <br/>
+
+Proceed to the routes directory and open the api.php file and create the endpoints that will reference the methods created earlier in the ApiController. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/routes.PNG?raw=true) <br/> <br/>
