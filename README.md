@@ -35,5 +35,6 @@ Step 6. You will see the startup screen <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/startup.PNG?raw=true) <br/> <br/>
 
 # Setup the Laravel API
-Create a Laravel application. To do this you have to run the following command in the terminal: <br/>
-$ laravel new api-project
+Create a Laravel application. To do this you have to run the following command in the terminal: <br/> <br/>
+$ laravel new api-project <br/> <br/>
+Next, change your current directory to the root folder of the project: <br/> <br/> 
