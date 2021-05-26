@@ -171,3 +171,7 @@ Open Postman and make a GET request to the /api/person/{api_token} endpoint.<br/
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmantenpeople.PNG?raw=true) <br/> <br/>
 
 As seen in the image above, we made a request to http://127.0.0.1:8000/api/person/the_secret_key and we got the most recently added people in the database. <br/> <br/>
+
+# Get Statistics of All People
+The last step is to get the statistics of all people in the databse incuding a list of all the countries, the average age, and so on. Go to the getStatistics() method in our ApiController. It should look exactly like the image below: <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/getstatistics.PNG?raw=true) <br/> <br/>
