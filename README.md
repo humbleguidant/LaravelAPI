@@ -145,4 +145,4 @@ It works if it returns the success message along with the newly created person I
 
 # Return a Person Record
 You will be creating an endpoint to return just a single person record. To begin you have to visit the getPerson() method in the ApiController. We will retrieve a person record by its id and to this, we will be making an eloquent query to return person records by their id. <br/> <br/>
-
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/getperson.PNG?raw=true) <br/> <br/>
