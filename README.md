@@ -138,5 +138,7 @@ Route::post('person/{api_token}', 'App\Http\Controllers\ApiController@createPers
 Before testing, make sure your application is running. You can use the inbuilt command as mentioned earlier: <br/> <br/>
 $ php artisan serve <br/> <br/>
 
-To test this endpoint open Postman and make a POST request to http://localhost:8000/api/person/this
+To test this endpoint, open Postman and make a POST request to http://localhost:8000/api/person/the_secret_key <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmancreateperson.PNG?raw=true) <br/> <br/>
+
 
