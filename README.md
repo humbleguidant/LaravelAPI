@@ -3,4 +3,4 @@ This is a RESTful API created in Laravel. It grabs data from another API in http
 
 # Download Postman
 Step 1. Go to https://www.postman.com/downloads/ and choose the desired platform among Mac, Windows or Linux. Click Download.
-![alt text](https://github.com/humbleguidant/LaravelAPI/blob/main/Screenshots/postman.PNG?raw=true)
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postman.PNG?raw=true)
