@@ -154,5 +154,5 @@ Route::get('person/{id}/{api_token}', 'App\Http\Controllers\ApiController@getPer
 Open Postman and make a GET request to the /api/sperson/{id}/{api_token} endpoint {id} can be the id of an existing record you may have in your database. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmangetperson.PNG?raw=true) <br/> <br/>
 
-As seen in the image above, We made a request to http://127.0.0.1/api/person/22/the_secret_key and the details of the person assigned to that id were returned. Next, let us try requesting a non-existent person record.
+As seen in the image above, We made a request to http://127.0.0.1/api/person/22/the_secret_key and the details of the person assigned to that id were returned. Next, let us try requesting a non-existent person record. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/noperson.PNG?raw=true) <br/> <br/>
