@@ -78,4 +78,8 @@ Next, you will run your migration using the following command: <br/> <br/>
 $ php artisan migrate <br/> <br/>
 
 # Setup the Middleware
+Create an API Key middleware using the make:middleware Artisan command. <br/> <br/>
+$ php artisan make:middleware APIkey <br/> <br/>
 
+Add the following code to the handle function in app\Http\Middleware\APIkey.php which checks that the request’s token matches the expected token from the .env file. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/middleware.PNG?raw=true) <br/> <br/>
