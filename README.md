@@ -138,7 +138,11 @@ Route::post('person/{api_token}', 'App\Http\Controllers\ApiController@createPers
 Before testing, make sure your application is running. You can use the inbuilt command as mentioned earlier: <br/> <br/>
 $ php artisan serve <br/> <br/>
 
-To test this endpoint, open Postman and make a POST request to http://localhost:8000/api/person/the_secret_key <br/> <br/>
+To test this endpoint, open Postman and make a POST request to http://127.0.0.1:8000/api/person/the_secret_key <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmancreateperson.PNG?raw=true) <br/> <br/>
 
+It works if it returns the success message along with the newly created person ID and the 201 response code, Now try adding a few more records to populate our database for the next task.
+
+# Return a Person Record
+You will be creating an endpoint to return just a single person record. To begin you have to visit the getPerson() method in the ApiController. We will retrieve a person record by its id and to this, we will be making an eloquent query to return person records by their id. <br/> <br/>
 
