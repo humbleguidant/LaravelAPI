@@ -187,7 +187,7 @@ Open Postman and make a GET request to the /api/statistics/{api_token} endpoint.
 As seen in the image above, we made a request to http://127.0.0.1:8000/api/statistics/the_secret_key and we get the statistics of all people including list of countries, average aga, and so on. <br/> <br/>
 
 # Conclusion
-Now that we have reached the end of this Article, let us confirm the contents of some important files. <br/> <br/>
+Now that we have reached the end, let us confirm the contents of some important files. <br/> <br/>
 app\http\controllers\ApiController.php <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/controller.PNG?raw=true) <br/> <br/>
 
