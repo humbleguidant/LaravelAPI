@@ -114,9 +114,15 @@ Install the Guzzle package: <br/> <br/>
 $ composer require guzzlehttp/guzzle <br/> <br/>
 
 # Call Random Person API Function
-First call the Guzzle class before the controller class, directly under the namespace. <br/> <br/>
+In the ApiController class, first call the Guzzle class before the controller class, directly under the namespace. <br/> <br/>
 use GuzzleHttp\Client; <br/> <br/>
+
+Also call the GuzzleException class after the Guzzle class: <br/> <br/>
+use GuzzleHttp\Exception\GuzzleException; <br/> <br/>
+
+
 
 # Create a Person Record
 Locate the callApi() function in our ApiController. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
+
