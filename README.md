@@ -196,3 +196,6 @@ routes\api.php <br/> <br/>
 
 app\Models\Person.php <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/person.PNG?raw=true) <br/> <br/>
+
+app\Http\Middleware\APIkey.php <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/apimiddle.PNG?raw=true) <br/> <br/>
