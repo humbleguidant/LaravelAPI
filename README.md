@@ -5,6 +5,6 @@ This is a RESTful API created in Laravel. It grabs data from another API in http
 Step 1. Go to https://www.postman.com/downloads/ and choose the desired platform among Mac, Windows or Linux. Click Download. <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postman.PNG?raw=true) <br/> <br/>
 
-Step 2. Download is in progress message should now display on the Apps page. Once the Postman download is completed, click on Run.
+Step 2. Download is in progress message should now display on the Apps page. Once the Postman download is completed, click on Run. <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/run.PNG?raw=true) <br/> <br/>
 
