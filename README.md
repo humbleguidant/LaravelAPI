@@ -96,3 +96,7 @@ You will find a new file named ApiController.php in the app\http\controllers dir
 
 Proceed to the routes directory and open the api.php file and create the endpoints that will reference the methods created earlier in the ApiController. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/routes.PNG?raw=true) <br/> <br/>
+
+# Create a Person Record
+Locate the callApi() function in our ApiController. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
