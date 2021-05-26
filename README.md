@@ -8,3 +8,5 @@ Step 1. Go to https://www.postman.com/downloads/ and choose the desired platform
 Step 2. Download is in progress message should now display on the Apps page. Once the Postman download is completed, click on Run. <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/run.PNG?raw=true) <br/> <br/>
 
+Step 3. Installation Starts <br /> <br />
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/installation.PNG?raw=true) <br/> <br/>
