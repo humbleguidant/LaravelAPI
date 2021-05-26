@@ -13,3 +13,6 @@ Step 3. Installation Starts <br /> <br />
 
 Step 4. In the next window, Signup for a Postman Account <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/signup.PNG?raw=true) <br/> <br/>
+
+Step 5. Select the workspace tools you need and click Save My Preferences <br /> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/select.PNG?raw=true) <br/> <br/>
