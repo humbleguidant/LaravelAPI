@@ -162,3 +162,6 @@ As seen in the image above, a request was made to the endpoint to return the det
 # Return Ten Most Recently Added People
 Next is to get the ten most recently added people from the database. Go to the getFirstTenPeople() method in our ApiController. It should look exactly like the image below: <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/tenpeople.PNG?raw=true) <br/> <br/>
+
+This method is already tied to the api/person/{api_token} route as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
+Route::get('person/{api_token}', 'App\Http\Controllers\ApiController@getPerson')->middleware('api_token'); <br/> <br/>
