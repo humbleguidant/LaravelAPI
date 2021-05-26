@@ -107,6 +107,9 @@ $ php artisan storage:link <br/> <br/>
 The next step is to check the 'public' settings in config/filesystems.php file to save images in the public folder. Make sure your 'public' is the same as the image below. <br/> </br>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/filesystem.PNG?raw=true) <br/> <br/>
 
+Locate the storeImage() function in our ApiController. Make sure you have a storeImage() function as shown below<br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/storeimage.PNG?raw=true) <br/> <br/>
+
 # Install Guzzle Package
 The Guzzle HTTP client, allows you to quickly make outgoing HTTP requests to communicate with other web applications. This is for calling the random person API. <br/> <br/> 
 
@@ -120,7 +123,7 @@ use GuzzleHttp\Client; <br/> <br/>
 Also call the GuzzleException class after the Guzzle class: <br/> <br/>
 use GuzzleHttp\Exception\GuzzleException; <br/> <br/>
 
-Locate the callApi() function in our ApiController. <br/> <br/>
+Locate the callApi() function in our ApiController. Make sure you have a callApi() function as shown below<br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
 
 
