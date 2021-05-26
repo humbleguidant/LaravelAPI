@@ -102,7 +102,10 @@ To make images accessible from the web, you should create a symbolic link from p
 
 To create the symbolic link, you may use the storage:link Artisan command: <br /> <br/>
 
-$ php artisan storage:link
+$ php artisan storage:link <br/> <br/>
+
+The next step is to check the 'public' settings in config/filesystems.php file to save images in the public folder. <br/> </br>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/filesystem.PNG?raw=true) <br/> <br/>
 
 # Create a Person Record
 Locate the callApi() function in our ApiController. <br/> <br/>
