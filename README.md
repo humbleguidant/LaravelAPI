@@ -35,6 +35,15 @@ Step 6. You will see the startup screen <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/startup.PNG?raw=true) <br/> <br/>
 
 # Setup the Laravel API
-Create a Laravel application. To do this you have to run the following command in the terminal: <br/> <br/>
+Create a Laravel application. To do this, run the following command in the terminal: <br/> <br/>
 $ laravel new api-project <br/> <br/>
+
+Next, create a new database for the application by running: <br/> <br/>
+$ mysql -u root -p <br/> <br/>
+
+You will be prompted to type your MySQL password if you have any set when you authenticate with MySQL. Run the following to create a new database named APIPROJECT: <br/> <br/>
+CREATE DATABASE APIPROJECT; <br/> <br/>
+
 Next, change your current directory to the root folder of the project: <br/> <br/> 
+$ cd api-project <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/database.PNG?raw=true) <br/> <br/>
