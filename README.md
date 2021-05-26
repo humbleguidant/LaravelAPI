@@ -53,3 +53,8 @@ $ php artisan make:model Person -m <br/> <br/>
 
 A new file named Person.php will be created in the app/Models directory. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/person.PNG?raw=true) <br/> <br/>
+
+Additionally, a migration file will be created in the database/migrations directory to generate our table. You will have to modify the migration file as shown below. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/migration.PNG?raw=true) <br/> <br/>
+
+
