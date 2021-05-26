@@ -3,14 +3,16 @@ This is a RESTful API created in Laravel. It grabs data from another API in http
 
 # Understanding the Application 
 The API uses four different routes. <br/>
-1. POST /person/api_token will return all 
+1. POST /person/api_token will create a new person in the database. User must have an API key to create a person. The API key gets passed to middleware() for authorization. Accepts POST requests only <br/>
+2. GET /person/id/api_token Gets the persons record with their ID. User must have API key. ID gets passed to API Controller. Accepts GET requests only. <br/>
+3.  
 
 # Prerequisites
 1. PHP 7.1 or Higher <br/>
 2. Composer <br/>
 3. MySql <br/>
 4. Laravel 5.6 or Higher <br/>
-5. Postman
+5. Postman <br/>
 
 # Download Postman
 Step 1. Go to https://www.postman.com/downloads/ and choose the desired platform among Mac, Windows or Linux. Click Download. <br /> <br />
