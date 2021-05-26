@@ -156,3 +156,9 @@ Open Postman and make a GET request to the /api/sperson/{id}/{api_token} endpoin
 
 As seen in the image above, We made a request to http://127.0.0.1/api/person/22/the_secret_key and the details of the person assigned to that id were returned. Next, let us try requesting a non-existent person record. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/noperson.PNG?raw=true) <br/> <br/>
+
+As seen in the image above, a request was made to the endpoint to return the details of the person record with the id of 23 which is non-existent. Our API did a good job by returning an error message along with the 404 status code. <br/> <br/>
+
+# Return Ten Most Recently Added People
+Next is to get the ten most recently added people from the database. Go to the getFirstTenPeople() method in our ApiController. It should look exactly like the image below
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/tenpeople.PNG?raw=true) <br/> <br/>
