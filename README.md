@@ -107,7 +107,7 @@ $ php artisan storage:link <br/> <br/>
 The next step is to check the 'public' settings in config/filesystems.php file to save images in the public folder. Make sure your 'public' is the same as the image below. <br/> </br>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/filesystem.PNG?raw=true) <br/> <br/>
 
-Locate the storeImage() method in our ApiController. Make sure you have a storeImage() function as shown below<br/> <br/>
+Locate the storeImage() method in our ApiController. Make sure you have a storeImage() method as shown below<br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/storeimage.PNG?raw=true) <br/> <br/>
 
 # Install Guzzle Package
@@ -130,3 +130,13 @@ Locate the callApi() method in our ApiController. Make sure you have a callApi()
 # Create a Person Record
 Locate the createPerson() method in our ApiController. It will call the callApi() method to get a random person from the API and create that new person as a new row in the database. The storeImage() method will be called to store an avatar image for that new person. The createPerson() method should look exactly like the image below.  <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/createperson.PNG?raw=true) <br/> <br/>
+
+This method is already tied to the api/person as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
+Route::post('person/{api_token}', 'App\Http\Controllers\ApiController@createPerson')->middleware('api_token'); <br/> <br/>
+
+# Testing 
+Before testing, make sure your application is running. You can use the inbuilt command as mentioned earlier: <br/> <br/>
+$ php artisan serve <br/> <br/>
+
+To test this endpoint open Postman and make a POST request to http://localhost:8000/api/person/this
+
