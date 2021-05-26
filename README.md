@@ -45,6 +45,8 @@ You will be prompted to type your MySQL password if you have any set when you au
 CREATE DATABASE APIPROJECT; <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/database.PNG?raw=true) <br/> <br/>
 
-Next, change your current directory to the root folder of the project: <br/> <br/> 
+Next, exit mysql and change your current directory to the root folder of the project: <br/> <br/> 
 $ cd api-project <br/> <br/>
 
+We can proceed to create a model along with a migration. To do this, run: <br/> <br/>
+$ php artisan make:model Person -m <br/> <br/>
