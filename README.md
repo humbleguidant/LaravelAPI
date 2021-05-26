@@ -43,7 +43,8 @@ $ mysql -u root -p <br/> <br/>
 
 You will be prompted to type your MySQL password if you have any set when you authenticate with MySQL. Run the following to create a new database named APIPROJECT: <br/> <br/>
 CREATE DATABASE APIPROJECT; <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/database.PNG?raw=true) <br/> <br/>
 
 Next, change your current directory to the root folder of the project: <br/> <br/> 
 $ cd api-project <br/> <br/>
-![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/database.PNG?raw=true) <br/> <br/>
+
