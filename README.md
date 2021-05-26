@@ -160,5 +160,5 @@ As seen in the image above, We made a request to http://127.0.0.1/api/person/22/
 As seen in the image above, a request was made to the endpoint to return the details of the person record with the id of 23 which is non-existent. Our API did a good job by returning an error message along with the 404 status code. <br/> <br/>
 
 # Return Ten Most Recently Added People
-Next is to get the ten most recently added people from the database. Go to the getFirstTenPeople() method in our ApiController. It should look exactly like the image below
+Next is to get the ten most recently added people from the database. Go to the getFirstTenPeople() method in our ApiController. It should look exactly like the image below: <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/tenpeople.PNG?raw=true) <br/> <br/>
