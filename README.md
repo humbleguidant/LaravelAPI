@@ -65,7 +65,7 @@ DB_DATABASE=your-database-name <br/>
 DB_USERNAME=your-database-username <br/>
 DB_PASSWORD=your-database-password <br/> <br/>
 
-Add an API key in .env file after the APP_URL parameter. For example: <br/> <br/>
+Add an API key in .env file after the APP_URL parameter. It can be any key that you want. For example: <br/> <br/>
 
 APP_NAME=Laravel <br/>
 APP_ENV=local <br/>
