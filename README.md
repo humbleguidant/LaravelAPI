@@ -184,7 +184,7 @@ Route::get('statistics/{api_token}', 'App\Http\Controllers\ApiController@getStat
 Open Postman and make a GET request to the /api/statistics/{api_token} endpoint.<br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmanstats.PNG?raw=true) <br/> <br/>
 
-As seen in the image above, we made a request to http://127.0.0.1:8000/api/statistics/the_secret_key and we get the statistics of all people including list of countries, average aga, and so on. <br/> <br/>
+As seen in the image above, we made a request to http://127.0.0.1:8000/api/statistics/the_secret_key and we get the statistics of all people including list of countries, average age, and so on. <br/> <br/>
 
 # Conclusion
 Now that we have reached the end, let us confirm the contents of some important files. <br/> <br/>
