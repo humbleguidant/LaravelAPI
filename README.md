@@ -131,7 +131,7 @@ Locate the callApi() method in our ApiController. Make sure you have a callApi()
 Locate the createPerson() method in our ApiController. It will call the callApi() method to get a random person from the API and create that new person as a new row in the database. The storeImage() method will be called to store an avatar image for that new person. The createPerson() method should look exactly like the image below.  <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/createperson.PNG?raw=true) <br/> <br/>
 
-This method is already tied to the api/person as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
+This method is already tied to the api/person/{api_token} as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
 Route::post('person/{api_token}', 'App\Http\Controllers\ApiController@createPerson')->middleware('api_token'); <br/> <br/>
 
 # Testing 
@@ -146,3 +146,6 @@ It works if it returns the success message along with the newly created person I
 # Return a Person Record
 You will be creating an endpoint to return just a single person record. To begin you have to visit the getPerson() method in the ApiController. We will retrieve a person record by its id and to this, we will be making an eloquent query to return person records by their id. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/getperson.PNG?raw=true) <br/> <br/>
+
+This method is already tied to the api/person/{id}/{api_token} route as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
+Route::get('person/{id}/{api_token}', 'App\Http\Controllers\ApiController@getPerson')->middleware('api_token'); <br/> <br/>
