@@ -94,7 +94,7 @@ $ php artisan make:controller ApiController <br/> <br/>
 You will find a new file named ApiController.php in the app\http\controllers directory. Next, we can add the following methods: <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/controller.PNG?raw=true) <br/> <br/>
 
-Proceed to the routes directory and open the api.php file and create the endpoints that will reference the methods created earlier in the ApiController. <br/> <br/>
+Proceed to the routes directory and open the api.php file and create the endpoints that will reference the methods created earlier in the ApiController. Make sure your routes are exactly like the image below. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/routes.PNG?raw=true) <br/> <br/>
 
 # Image Storage
@@ -104,8 +104,18 @@ To create the symbolic link, you may use the storage:link Artisan command: <br /
 
 $ php artisan storage:link <br/> <br/>
 
-The next step is to check the 'public' settings in config/filesystems.php file to save images in the public folder. <br/> </br>
+The next step is to check the 'public' settings in config/filesystems.php file to save images in the public folder. Make sure your 'public' is the same as the image below. <br/> </br>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/filesystem.PNG?raw=true) <br/> <br/>
+
+# Install Guzzle Package
+The Guzzle HTTP client, allows you to quickly make outgoing HTTP requests to communicate with other web applications. This is for calling the random person API. <br/> <br/> 
+
+Install the Guzzle package: <br/> <br/>
+$ composer require guzzlehttp/guzzle <br/> <br/>
+
+# Call Random Person API Function
+First call the Guzzle class before the controller class, directly under the namespace. <br/> <br/>
+use GuzzleHttp\Client; <br/> <br/>
 
 # Create a Person Record
 Locate the callApi() function in our ApiController. <br/> <br/>
