@@ -1,5 +1,5 @@
 # Laravel API
-This is a RESTful API created in Laravel. It grabs data from another API in https://pipl.ir/. After grabbing the data, it stores it into a database table called 'people'. The 'people' table contains personal data such as blood type, age, and so on. This API can also display the 10 newest records from the 'people' table and display statistics on the total number of people in a country, the average age, and so on. 
+This is a RESTful API created in Laravel. It grabs data from another API in https://pipl.ir/. It also grabs images from https://robohash.org and creates avatars for every new person in the database. After grabbing the data, it stores it into a database table called 'people'. The 'people' table contains personal data such as blood type, age, and so on. This API can also display the 10 newest records from the 'people' table and display statistics on the total number of people in a country, the average age, and so on. 
 
 # Prerequisites
 1. PHP 7.1 or Higher <br/>
