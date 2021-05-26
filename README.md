@@ -97,6 +97,13 @@ You will find a new file named ApiController.php in the app\http\controllers dir
 Proceed to the routes directory and open the api.php file and create the endpoints that will reference the methods created earlier in the ApiController. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/routes.PNG?raw=true) <br/> <br/>
 
+# Image Storage
+To make images accessible from the web, you should create a symbolic link from public/storage to storage/app/public. Utilizing this folder convention will keep your publicly accessible files in one directory that can be easily shared across deployments. <br /> <br />
+
+To create the symbolic link, you may use the storage:link Artisan command: <br /> <br/>
+
+$ php artisan storage:link
+
 # Create a Person Record
 Locate the callApi() function in our ApiController. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
