@@ -199,3 +199,6 @@ app\Models\Person.php <br/> <br/>
 
 app\Http\Middleware\APIkey.php <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/apimiddle.PNG?raw=true) <br/> <br/>
+
+
+This is a simple RESTful API using Laravel. This covered the basics of the subject matter. 
