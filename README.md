@@ -83,3 +83,6 @@ $ php artisan make:middleware APIkey <br/> <br/>
 
 Add the following code to the handle function in app\Http\Middleware\APIkey.php which checks that the request’s token matches the expected token from the .env file. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/middleware.PNG?raw=true) <br/> <br/>
+
+Register the middleware to the routeMiddleware array in the app/Http/Kernel.php file. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/kernel.PNG?raw=true) <br/> <br/>
