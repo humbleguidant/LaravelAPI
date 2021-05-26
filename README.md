@@ -164,7 +164,7 @@ Next is to get the ten most recently added people from the database. Go to the g
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/tenpeople.PNG?raw=true) <br/> <br/>
 
 This method is already tied to the api/person/{api_token} route as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
-Route::get('person/{api_token}', 'App\Http\Controllers\ApiController@getPerson')->middleware('api_token'); <br/> <br/>
+Route::get('person/{api_token}', 'App\Http\Controllers\ApiController@getFirstTenPeople')->middleware('api_token'); <br/> <br/>
 
 # Testing
 Open Postman and make a GET request to the /api/person/{api_token} endpoint.<br/> <br/>
@@ -175,3 +175,6 @@ As seen in the image above, we made a request to http://127.0.0.1:8000/api/perso
 # Get Statistics of All People
 The last step is to get the statistics of all people in the databse incuding a list of all the countries, the average age, and so on. Go to the getStatistics() method in our ApiController. It should look exactly like the image below: <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/getstatistics.PNG?raw=true) <br/> <br/>
+
+This method is already tied to the api/statistics/{api_token} route as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
+Route::get('statistics/{api_token}', 'App\Http\Controllers\ApiController@getStatistics')->middleware('api_token'); <br/> <br/>
