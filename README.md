@@ -107,7 +107,7 @@ $ php artisan storage:link <br/> <br/>
 The next step is to check the 'public' settings in config/filesystems.php file to save images in the public folder. Make sure your 'public' is the same as the image below. <br/> </br>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/filesystem.PNG?raw=true) <br/> <br/>
 
-Locate the storeImage() function in our ApiController. Make sure you have a storeImage() function as shown below<br/> <br/>
+Locate the storeImage() method in our ApiController. Make sure you have a storeImage() function as shown below<br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/storeimage.PNG?raw=true) <br/> <br/>
 
 # Install Guzzle Package
@@ -123,9 +123,10 @@ use GuzzleHttp\Client; <br/> <br/>
 Also call the GuzzleException class after the Guzzle class: <br/> <br/>
 use GuzzleHttp\Exception\GuzzleException; <br/> <br/>
 
-Locate the callApi() function in our ApiController. Make sure you have a callApi() function as shown below<br/> <br/>
+Locate the callApi() method in our ApiController. Make sure you have a callApi() function as shown below<br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
 
 
 # Create a Person Record
-
+Locate the createPerson() method in our ApiController. It will call the callApi() method to get a random person from the API and create that new person as a new row in the database. The storeImage() method will be called to store an avatar image for that new person. The createPerson() method should look exactly like the image below.  <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/createperson.PNG?raw=true) <br/> <br/>
