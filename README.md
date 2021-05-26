@@ -63,4 +63,13 @@ DB_HOST=127.0.0.1 <br/>
 DB_PORT=3306 <br/>
 DB_DATABASE=your-database-name <br/>
 DB_USERNAME=your-database-username <br/>
-DB_PASSWORD=<your-database-password> <br/>
+DB_PASSWORD=your-database-password <br/> <br/>
+
+Add an API key in .env file after the APP_URL parameter. For example: <br/> <br/>
+
+APP_NAME=Laravel <br/>
+APP_ENV=local <br/>
+APP_KEY=the_app_key <br/>
+APP_DEBUG=true <br/>
+APP_URL=http://localhost <br/>
+API_KEY=the_secret_key <br/>
