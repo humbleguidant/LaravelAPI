@@ -183,3 +183,16 @@ Route::get('statistics/{api_token}', 'App\Http\Controllers\ApiController@getStat
 # Testing
 Open Postman and make a GET request to the /api/statistics/{api_token} endpoint.<br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmanstats.PNG?raw=true) <br/> <br/>
+
+As seen in the image above, we made a request to http://127.0.0.1:8000/api/statistics/the_secret_key and we get the statistics of all people including list of countries, average aga, and so on. <br/> <br/>
+
+# Conclusion
+Now that we have reached the end of this Article, let us confirm the contents of some important files. <br/> <br/>
+app\http\controllers\ApiController.php <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/controller.PNG?raw=true) <br/> <br/>
+
+routes\api.php <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/routes.PNG?raw=true) <br/> <br/>
+
+app\Models\Person.php <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/person.PNG?raw=true) <br/> <br/>
