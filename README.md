@@ -86,3 +86,10 @@ Add the following code to the handle function in app\Http\Middleware\APIkey.php 
 
 Register the middleware to the routeMiddleware array in the app/Http/Kernel.php file. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/kernel.PNG?raw=true) <br/> <br/>
+
+# Setup the Routes
+Now that we have the basics of the application set up, we can proceed to create a controller that will contain the methods for our API by running: <br/> <br/>
+$ php artisan make:controller ApiController <br/> <br/>
+
+You will find a new file named ApiController.php in the app\http\controllers directory. Next, we can add the following methods: <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/controller.PNG?raw=true) <br/> <br/>
