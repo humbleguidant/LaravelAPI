@@ -72,4 +72,10 @@ APP_ENV=local <br/>
 APP_KEY=the_app_key <br/>
 APP_DEBUG=true <br/>
 APP_URL=http://localhost <br/>
-API_KEY=the_secret_key <br/>
+API_KEY=the_secret_key <br/> <br/> 
+
+Next, you will run your migration using the following command: <br/> <br/>
+$ php artisan migrate <br/> <br/>
+
+# Setup the Middleware
+
