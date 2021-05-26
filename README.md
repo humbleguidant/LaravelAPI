@@ -57,7 +57,7 @@ A new file named Person.php will be created in the app/Models directory. <br/> <
 Additionally, a migration file will be created in the database/migrations directory to generate our table. You will have to modify the migration file as shown below. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/migration.PNG?raw=true) <br/> <br/>
 
-Next, yopen the project folder in your preferred text editor and modify the .env file to input your proper database credentials. This will allow the application to properly connect to the recently created database: <br/> <br/>
+Next, open the project folder in your preferred text editor and modify the .env file to input your proper database credentials. This will allow the application to properly connect to the recently created database: <br/> <br/>
 DB_CONNECTION=mysql <br/>
 DB_HOST=127.0.0.1 <br/>
 DB_PORT=3306 <br/>
