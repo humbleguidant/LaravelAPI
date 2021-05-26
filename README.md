@@ -10,3 +10,6 @@ Step 2. Download is in progress message should now display on the Apps page. Onc
 
 Step 3. Installation Starts <br /> <br />
 ![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/installation.PNG?raw=true) <br/> <br/>
+
+Step 4. In the next window, Signup for a Postman Account <br /> <br />
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/signup.PNG?raw=true) <br/> <br/>
