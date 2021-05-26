@@ -120,9 +120,9 @@ use GuzzleHttp\Client; <br/> <br/>
 Also call the GuzzleException class after the Guzzle class: <br/> <br/>
 use GuzzleHttp\Exception\GuzzleException; <br/> <br/>
 
+Locate the callApi() function in our ApiController. <br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
 
 
 # Create a Person Record
-Locate the callApi() function in our ApiController. <br/> <br/>
-![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/callapi.PNG?raw=true) <br/> <br/>
 
