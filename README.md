@@ -178,3 +178,8 @@ The last step is to get the statistics of all people in the databse incuding a l
 
 This method is already tied to the api/statistics/{api_token} route as we previously defined it in our routes file located at routes/api.php: <br/> <br/>
 Route::get('statistics/{api_token}', 'App\Http\Controllers\ApiController@getStatistics')->middleware('api_token'); <br/> <br/>
+
+
+# Testing
+Open Postman and make a GET request to the /api/statistics/{api_token} endpoint.<br/> <br/>
+![alt text](https://github.com/humbleguidant/LaravelAPI/blob/master/Screenshots/postmanstats.PNG?raw=true) <br/> <br/>
